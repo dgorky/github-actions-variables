@@ -4,12 +4,12 @@ on:
   push
 
 env:
-  ACCESS_ID: ${{ vars.ACCESS_I }}
+  ACCESS_ID: ${{ vars.ACCESS_ID }}
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Echo ACCESS_I
-      run: echo $ACCESS_I
+    - name: Echo ACCESS_ID
+      run: echo $ACCESS_ID
